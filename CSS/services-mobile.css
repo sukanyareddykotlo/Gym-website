@@ -1,0 +1,384 @@
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+   *
+    {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    overflow-x: clip;
+    }
+    body
+    {
+        background-color: black;
+    }
+    .banner {
+        background-image: url(../media/images/gym-1.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+       opacity: 85%;
+        width: 360px;
+        height: 520px;
+        position: relative;
+    
+    }
+    .menu
+{
+	display:none;
+	position : absolute;
+	background-color:black;
+   
+    opacity: 50%;
+	right: 0;
+	left: 0;
+	float: left;
+	padding: 26px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+ .nav-links a
+{
+color: white;
+}
+
+menu li :hover
+{
+	display: inline-block;
+	transition: 0.3s ease-in;
+    
+   
+
+}
+input:checked ~ .menu
+{
+	display: block;
+}
+.hamburger
+{
+	display: block;
+	color:white;
+    font-size: 30px;
+    
+}
+.logo{
+  width:250px;
+  height: 60px;
+}
+.about
+{
+    color:#F24405;
+    position:absolute;
+    font-weight: bold;
+    top:320px;
+    left: 30px;
+    font-size:30px;
+    letter-spacing: 2px;
+}
+
+h1
+{
+    color:white;
+    position: absolute;
+    left:30px;
+    top:360px;
+    font-size: 35px;
+}
+
+/* services */
+
+
+.grid-1
+{
+    display: grid;
+  grid-template-columns:auto;
+    row-gap: 9px;
+  
+   
+}
+.grid-services
+{
+    width: 360px;
+    height: 280px;
+    transform: translate(-110px,0px);
+}
+.grid-services img
+{
+    width: 360px;
+    height: 280px;
+    object-fit: cover;
+}
+.grid-services i
+{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+ .grid-services h2
+{
+    color:#F24405;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+.grid-services p
+{
+    color: gray;
+    font-size: 17px;
+    padding: 6px;
+    letter-spacing: 2px;
+}
+
+/* wherever you want */
+h3
+{
+text-align: center;
+color: white;
+margin-top: 40px;
+font-size: 26px;
+}
+.grid-2
+{
+    display: grid;
+    grid-template-columns:auto;
+}
+.grid-classes
+{
+    width:360px;
+    height: 400px;
+   
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.grid-classes img
+{
+    width:190px;
+    height: 190px;
+    object-fit: cover;
+}
+.grid-classes .img-1
+{
+    width:190px;
+    height: 190px;
+    object-fit: cover;
+    transform: translate(140px,-10px);
+}
+.grid-classes i
+{
+    color:#F24405;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.grid-classes h4
+{
+    color: white;
+    font-size: 22px;
+    transform: translate(60px,-25px);
+}
+.grid-classes p
+{
+    color:gray;
+    font-size: 19px;
+    transform: translate(60px,-20px);
+}
+.grid-classes h4:hover
+{
+    color:#F24405;
+    cursor: pointer;
+}
+/* wherever you want */
+
+/* why choose us */
+
+h6
+{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    margin-top: 50px;
+}
+.why-choose
+{
+    background-image: url(../media/images/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit:contain;
+    width:360px;
+    height:350px;
+    margin-top: 40px;
+    
+}
+.grid-3
+{
+    display: grid;
+    grid-template-columns:26% 26% 26% 22%;
+}
+.grid-space
+{
+    width: 90px;
+    height: 90px;
+    margin-left:0px;
+    margin-top: 80px;
+   
+}
+.grid-space i
+{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.grid-space h5
+{
+    color:#F24405;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.grid-space p
+{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* address */
+
+.address
+ {
+    width: 360px;
+    height: 320px;
+    background-color:#262626;
+    margin-top: 60px;
+ }
+ .grid-5
+ {
+   display: grid;
+   grid-template-columns:auto; 
+ }
+ .grid-address
+ {
+    width:380px;
+    height:90px;
+  
+    margin-left:10px ;
+    margin-top: 10px;
+ }
+ .background-circle
+ {
+    width:30px;
+    height: 30px;
+    background-color:#F24405;
+    border-radius: 50%;
+    margin: 20px;
+ }
+ .background-circle i
+ {
+    padding: 10px;
+    font-size: 14px;
+ }
+ .grid-address .contact
+ {
+    color:white;
+    font-size: 18px;
+    transform: translate(100px,-50px);
+    
+ }
+
+ /* footer */
+ 
+ .footer
+ {
+    width:100%;
+    height:420px;
+    background-color:black;
+    margin-top: 30px;
+
+ }
+ .logo-1
+ {
+    width:140px;
+    height: 50px;
+    margin: 20px;
+   
+ }
+ .grid-6
+ {
+    display:grid;
+    grid-template-columns:auto;
+ }
+ .grid-footer
+ {
+    width:360px;
+    height: 360px;
+   
+ }
+ .grid-footer .para-1
+ {
+    color:gray;
+    font-size: 18px;
+    padding: 10px;
+ }
+ .grid-footer i
+ {
+    padding: 15px;
+    font-size: 25px;
+ }
+ .grid-footer .heading
+ {
+    color:white;
+    font-size: 25px;
+   transform: translate(0px,-110px);
+    font-weight: bold;
+ }
+ .grid-footer .links
+ {
+    color: gray;
+    font-size:17px;
+    transform: translate(0px,-90px);
+ }
+ .grid-footer .line
+ {
+    width:270px;
+    height: 1px;
+    background-color: gray;
+   transform: translate(0px,-90px);
+ }
+ .logo-1
+ {
+    width:140px;
+    height: 50px;
+    margin: 20px;
+   
+ }
+ .footer .line-1
+ {
+    width: 360px;
+    height: 1px;
+    background-color: white;
+    transform: translate(0px,-100px);
+ }
+ .footer .copy-rights
+ {
+    color: gray;
+    text-align: center;
+    transform: translate(0px,-90px);
+ }
+ .footer .copy-rights span
+ {
+    color:#F24405
+ }
+ .copy-rights i
+ {
+    color: #F24405;
+    font-size: 15px;
+    
+ }
+
+}
+
+

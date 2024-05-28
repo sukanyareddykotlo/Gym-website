@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Kanit:ital,wght@0,100;0,200;1,100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x: clip;
+}
+body
+{
+    background-color: black;
+}
+.banner {
+    background-image: url(../media/images/gym.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+   
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+li
+{
+	list-style: none;
+}
+.navbar
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	color: white;
+}
+.nav-links a
+{
+	color:white;
+    text-decoration: none;
+}
+.logo
+{
+	
+    font-size: 50px;
+}
+.menu
+{
+	display: flex;
+	gap: 5px;
+	font-size: 18px;
+}
+.menu li:hover
+{
+	background-color:#F24405;
+	border-radius: 5px;
+	transition: .03s ease-in;
+}
+.menu li
+{
+	padding: 5px 14px;
+}
+input
+{
+	display: none;
+}
+.hamburger
+{
+	display: none;
+	font-size: 18px;
+	user-select: none;
+}
+.about
+{
+    color:#F24405;
+    position:absolute;
+    font-weight: bold;
+    top:320px;
+    left: 400px;
+    font-size:50px;
+    letter-spacing: 2px;
+}
+
+h1
+{
+    color:white;
+    position: absolute;
+    left:400px;
+    top:400px;
+    font-size: 50px;
+}
+
+
+/* contact */
+
+
+.grid-1
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-contact
+{
+    width:620px;
+    height: 530px;
+   
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.grid-contact h2
+{
+    color:#F24405;
+    font-size: 20px;
+   padding: 10px 0px 0px 20px;
+}
+.grid-contact p
+{
+    color: white;
+    font-size: 30px;
+   padding: 0px 0px 0px 20px;
+}
+.round
+{
+    width:50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+   margin: 25px 0px 0px 20px;
+}
+.round i
+{
+    color: #F24405;
+    font-size: 20px;
+    padding: 15px;
+}
+.grid-contact .number
+    {
+        color:white;
+        font-size: 18px;
+        transform: translate(90px,-40px);
+     }
+.grid-contact .input
+{
+    width:400px;
+    height: 30px;
+    border: 1px solid gray;
+    background: none;
+    margin: 25px;
+}
+.grid-contact label
+{
+    color:gray;
+    padding-left:22px;
+    padding-top: 20px;
+}
+.grid-contact .comment
+{
+    width:400px;
+    height: 90px;
+    border: 1px solid gray;
+    background: none;
+    margin: 25px;
+}
+.grid-contact .button
+{
+    width:400px;
+    height: 40px;
+    border: 1px solid none;
+    background:#F24405;
+    margin: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+/* contact */
+
+/* maps */
+
+iframe
+{
+    width: 95%;
+    height: 450px;
+    margin: 40px;
+}
+
+/* maps */
+
+
+/* address */
+
+.address
+ {
+    width: 100%;
+    height: 150px;
+    background-color:#262626;
+    margin-top: 10px;
+ }
+ .grid-5
+ {
+   display: grid;
+   grid-template-columns: 30% 30% 30%; 
+ }
+ .grid-address
+ {
+    width:380px;
+    height:90px;
+  
+    margin-left:60px ;
+    margin-top: 10px;
+ }
+ .background-circle
+ {
+    width:50px;
+    height: 50px;
+    background-color:#F24405;
+    border-radius: 50%;
+    margin: 20px;
+ }
+ .background-circle i
+ {
+    padding: 16px;
+    color: white;
+ }
+ .grid-address .contact
+ {
+    color:white;
+    font-size: 20px;
+    transform: translate(80px,-60px);
+ }
+
+ /* address */
+
+
+ /* footer */
+
+ .footer
+ {
+    width:100%;
+    height:420px;
+    background-color:black;
+
+ }
+ .logo-1
+ {
+    width:140px;
+    height: 50px;
+    margin: 20px;
+   
+ }
+ .grid-6
+ {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+ }
+ .grid-footer
+ {
+    width:300px;
+    height: 360px;
+   
+ }
+ .grid-footer .para-1
+ {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+ }
+ .grid-footer i
+ {
+    padding: 15px;
+    color: white;
+ }
+ .grid-footer .heading
+ {
+    color:white;
+    font-size: 27px;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+ }
+ .grid-footer .links
+ {
+    color: white;
+    font-size:17px;
+    padding-left: 30px;
+    padding-top: 20px;
+ }
+ .grid-footer .line
+ {
+    width:270px;
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+ }
+ .footer .line-1
+ {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+ }
+ .footer .copy-rights
+ {
+    color: gray;
+    text-align: center;
+ }
+ .footer .copy-rights span
+ {
+    color:#F24405
+ }
+ .copy-rights i
+ {
+    color: #F24405;
+    font-size: 15px;
+    padding-top: 10px;
+ }
+
+
+ /* footer */

@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Kanit:ital,wght@0,100;0,200;1,100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x: clip;
+}body
+{
+    background-color: black;
+}
+
+.banner {
+    background-image: url(media/images/7.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+li
+{
+	list-style: none;
+}
+.navbar
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	color: white;
+}
+.nav-links a
+{
+	color:white;
+    text-decoration: none;
+}
+.logo
+{
+	
+    font-size: 50px;
+}
+.menu
+{
+	display: flex;
+	gap: 5px;
+	font-size: 18px;
+}
+.menu li:hover
+{
+	background-color:#F24405;
+	border-radius: 5px;
+	transition: .03s ease-in;
+}
+.menu li
+{
+	padding: 5px 14px;
+}
+input
+{
+	display: none;
+}
+.hamburger
+{
+	display: none;
+	font-size: 18px;
+	user-select: none;
+}
+.text
+{
+    color: white;
+    font-size: 45px;
+    margin-top: 250px;
+    margin-left: 120px;
+}
+.banner>.para
+{
+    font-size: 90px;
+    font-weight: bold;
+}
+.banner p
+{
+    color:white;
+    font-size: 70px;
+    margin-left: 120px;
+    letter-spacing: 3px;
+}
+.text,p{
+    animation-name: left;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    }
+    @keyframes left {
+    0% {
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    transform: translateX(0);
+    }
+
+}
+.banner p span
+{ 
+    color: #F24405;
+    font-weight: bold;
+}
+.banner button
+{
+    background-color:#F24405;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+.banner button:hover
+{
+    background-color: white;
+    color: #F24405;
+    cursor: pointer;
+}
+.why-choose h1
+{
+   font-size: 18px;
+   color:#F24405;
+   text-align: center;
+   margin-top: 50px;
+   font-family:Roboto Condensed,sans-serif;
+}
+.why-choose h3
+{
+   font-size: 27px;
+   color:white;
+   text-align: center;
+   margin-top: 20px;
+   font-family:Roboto Condensed,sans-serif;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap:10px;
+}
+.grid-icons
+{
+    width:255px;
+    height: 280px;
+   
+  margin-left: 40px;
+  margin-top: 30px;
+    
+}
+.grid-icons i
+{
+    color:white;
+     font-size: 45px;
+   padding-left: 20px;
+   padding-top: 16px;
+}
+.circle
+{
+    width:85px;
+    height: 85px;
+    background-color: gray;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.grid-icons .equipment
+{
+    color:white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.grid-icons .paragraph
+{
+    font-size: 15px;
+    color:white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.circle:hover
+{
+    background-color:#F24405;
+}
+.grid-icons i:hover
+{
+    color:white;
+}
+.our-clasess
+{
+    background-color:#2C2C2C;
+    width: 100%;
+    height:1050px;
+}
+h4
+{
+    color:#F24405;
+    font-size: 18px;
+    text-align: center;
+   padding-top: 40px;
+}
+h5
+{
+    color:white;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 15px;
+}
+.grid-1
+{
+    display: grid;
+    grid-template-columns: 30% 30% 28% 20%;
+    gap:10px;
+}
+.grid-clasess
+{
+    width:400px;
+    height: 370px;
+   background-color: black;
+  margin-left: 60px;
+  margin-top: 60px;
+    
+}
+.grid-clasess img
+{
+    width:400px;
+    height:270px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 69%, 0 100%, 0% 50%);
+}
+.grid-clasess img:hover
+{
+    transform: scale(1.2);
+    opacity: 80%;
+    cursor:grab;
+}
+.clasess 
+{
+    color:#F24405;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.clasess span
+{
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+   
+}
+.grid-2
+{
+    display: grid;
+    grid-template-columns:50% 60%;
+    gap:10px;
+}
+.grid-clasess-1
+{
+    width: 630px;
+    height: 450px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+  
+}
+.grid-clasess-1 img
+{
+    width:630px;
+    height:360px;
+    border:3px white;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 100%, 0% 50%);
+}
+.grid-clasess-1 img:hover
+{
+    transform: scale(1.1);
+    opacity: 80%;
+    cursor:grab;
+}
+
+
+.clasess-text
+{
+    color:#F24405;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.clasess-text span
+{
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+   
+}
+.registration
+{
+    width:100%;
+    height:290px;
+    background-image: url(media/images/dumbles-1.webp);
+    object-fit: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.registration .register
+{
+    color: white;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 70px;
+
+}
+.registration .color
+{
+    color:#F24405;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.appointment
+{
+    width: 160px;
+    height: 35px;
+   background-color: white;
+   margin-left: 220px;
+   margin-top: 50px;
+    
+}
+.appointment h6
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.appointment:hover
+{
+    background-color:#F24405;
+    cursor: pointer;
+}
+.appointment h6:hover
+{
+    color:white;
+}
+.our-plan
+{
+    color: #F24405;
+    font-size: 18px;
+    text-align: center;
+    margin-top:20px ;
+}
+.pricing-plan
+{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.grid-3
+{
+    display:grid;
+    grid-template-columns:30% 30% 30%;
+    gap:10px;
+}
+.grid-plans
+{
+    width:370px;
+    height:600px;
+    background-color: #262626;
+    margin-left: 60px;
+    margin-top: 50px;
+    clip-path: polygon(0 5%, 100% 0%, 100% 93%, 0% 100%);
+    
+}
+
+ .offer
+ {
+    color:white;
+    font-size: 25px;
+    padding-top: 50px;
+    font-weight: bold;
+    text-align: center;
+ }
+ 
+ 
+ .amount
+ {
+    color:#F24405;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+ }
+ .class
+ {
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+ }
+ .options
+ {
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
+ }
+ 
+ .grid-plans .b1
+ {
+    width:140px;
+    height: 30px;
+    background-color: #F24405;
+    color:white;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 50px;
+    margin-left: 130px;
+
+ }
+
+ .our-gallary
+ {
+    color:#F24405;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+ }
+ .grid-4
+ {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 8px;
+    margin-top: 60px;
+ }
+ .grid-gallary img
+ {
+    width:330px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 5px;
+    opacity: 70%;
+   
+ }
+ .grid-gallary img:hover
+ {
+    transform: scale(1.1);
+    opacity: 100%;
+    cursor: grab;
+ }
+ .address
+ {
+    width: 100%;
+    height: 150px;
+    background-color:#262626;
+    margin-top: 50px;
+ }
+ .grid-5
+ {
+   display: grid;
+   grid-template-columns: 30% 30% 30%; 
+ }
+ .grid-address
+ {
+    width:380px;
+    height:90px;
+  
+    margin-left:60px ;
+    margin-top: 10px;
+ }
+ .background-circle
+ {
+    width:50px;
+    height: 50px;
+    background-color:#F24405;
+    border-radius: 50%;
+    margin: 20px;
+ }
+ .background-circle i
+ {
+    padding: 16px;
+    color: white;
+ }
+ .grid-address .contact
+ {
+    color:white;
+    font-size: 20px;
+    transform: translate(80px,-60px);
+    
+ }
+ .footer
+ {
+    width:100%;
+    height:420px;
+    background-color:black;
+
+ }
+ .logo-1
+ {
+    width:140px;
+    height: 50px;
+    margin: 20px;
+   
+ }
+ .grid-6
+ {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+ }
+ .grid-footer
+ {
+    width:300px;
+    height: 360px;
+   
+ }
+ .grid-footer .para-1
+ {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+ }
+ .grid-footer i
+ {
+    padding: 15px;
+    color: white;
+ }
+ .grid-footer .heading
+ {
+    color:white;
+    font-size: 27px;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+ }
+ .grid-footer .links
+ {
+    color: white;
+    font-size:17px;
+    padding-left: 30px;
+    text-decoration: none;
+    padding-top: 20px;
+ }
+ .grid-footer .links a
+ {
+    text-decoration: none;
+    color: white;
+ }
+ .grid-footer .links a:hover
+ {
+    color: #F24405;
+ }
+ .grid-footer .line
+ {
+    width:270px;
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+ }
+ .footer .line-1
+ {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+ }
+ .footer .copy-rights
+ {
+    color: gray;
+    text-align: center;
+ }
+ .footer .copy-rights span
+ {
+    color:#F24405
+ }
+ .copy-rights i
+ {
+    color: #F24405;
+    font-size: 15px;
+    padding-top: 10px;
+ }
